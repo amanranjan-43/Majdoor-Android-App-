@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Majdoor</string>
+    <string name="welcome_in_majdoor">Welcome in MAJDOOR</string>
+    <string-array name="spinner_items">
+        <item>Labour</item>
+        <item>Plumber</item>
+        <item>Painter</item>
+        <item>Carpenter</item>
+        <item>Gardner</item>
+        <item>Electrician</item>
+        <item>Others</item>
+    </string-array>
+</resources>

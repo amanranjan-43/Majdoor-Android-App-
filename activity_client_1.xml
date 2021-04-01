@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Client_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="HELP(CLIENT)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+
+        android:textColor="#226A63"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="You have succesfully logged in your account. Which worker do you required, select from the list. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+
+        android:textColor="#226A63"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/aSpinner"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:entries="@array/spinner_items" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" FIND "
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" LOGOUT "
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"/>
+</LinearLayout>
